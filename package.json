@@ -1,0 +1,28 @@
+{
+  "name": "lancelotjs",
+  "version": "1.0.0",
+  "description": "Version hecha en JS del Bot modding llamado Lancelot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dartheryon/lancelotJS.git"
+  },
+  "keywords": [
+    "lancelot",
+    "js",
+    "discord",
+    "bot"
+  ],
+  "author": "William Ortiz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dartheryon/lancelotJS/issues"
+  },
+  "homepage": "https://github.com/Dartheryon/lancelotJS#readme",
+  "dependencies": {
+    "discord.js": "^14.0.3"
+  }
+}
