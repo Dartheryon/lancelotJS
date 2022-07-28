@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-
+require('dotenv').config();
 const prefix = '-l';
 const client = new Discord.Client({
   allowedMentions: {
@@ -12,5 +12,10 @@ const client = new Discord.Client({
     'GuildMembers',
     'GuildMessageReactions'
   ],
-
 });
+
+client.on('ready', ()=>{
+  console.log('Lancelot is online!')
+})
+
+client.login(process.env.TOKEN)
